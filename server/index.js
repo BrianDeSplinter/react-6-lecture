@@ -2,7 +2,7 @@ const express = require('express')
 const productsCtrl = require('./controllers/productsController')
 
 const app = express()
-const SERVER_PORT = 4000
+const SERVER_PORT = 4004
 
 app.use(express.json())
 
